@@ -1,6 +1,6 @@
 import "./Layout.css"
 
-const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, processData}) => {
+const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, processData, loading}) => {
 
   const nextPage = () => {
     if(viewIndex.current === 1){
@@ -37,13 +37,17 @@ const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, proces
             </tr>
         </thead>
         <tbody>
-        {data.map((item, id) => (
+        {loading ? ( <h2 className="cntr">Loading...</h2> ) : ( 
+        <>
+         { data.map((item, id) => (
             <tr key={id}>
                 <td>{item.row} </td>
                 <td>{item.gender} </td>
                 <td>{item.age} </td>
             </tr>
         ))}
+        </>
+        )}
         </tbody>
     </table>
     <div className="btn-group">

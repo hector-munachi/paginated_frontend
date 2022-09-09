@@ -93,3 +93,7 @@ tbody tr:nth-child(even) {
   margin-top: 5rem;
   margin-left: 5em;
 }
+
+.cntr {
+  margin-left: 12em;
+}

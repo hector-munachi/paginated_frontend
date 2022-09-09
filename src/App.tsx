@@ -8,6 +8,7 @@ const App = () => {
   const [activeData, setActiveData] = useState([])
   const [nextLink, setnextLink] = useState('')
   const [previousLink, setpreviousLink] = useState('')
+  const [loading, setLoading] = useState(true);
   // const [viewIndex, setViewIndex] = useState(1)
   const viewIndex = useRef(1)
   const dataRef = useRef(null)
@@ -46,6 +47,7 @@ const App = () => {
       const res = await axios.get(url || ('https://randomapi.com/api/8csrgnjw?key=LEIX-GF3O-AG7I-6J84&page=1'))
       
       setData((res.data.results)[0]);
+      setLoading(false);
       dataRef.current = (res.data.results)[0]
       viewIndex.current = 1
 
@@ -73,6 +75,7 @@ const App = () => {
             requestNewPage={requestNewPage}
             viewIndex={viewIndex}
             processData={processData}
+            loading={loading}
           />
         </div>
   )
