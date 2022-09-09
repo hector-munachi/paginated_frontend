@@ -16,6 +16,15 @@ npm install
 yarn install
 ```
 
+Run
+
+```bash
+npm start 
+```
+```bash
+yarn start
+```
+
 ## How does this work?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
