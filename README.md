@@ -23,7 +23,7 @@ Or
 yarn install
 ```
 
-Then run.
+Then run any of these commands to start the application.
 
 ```bash
 npm start 
