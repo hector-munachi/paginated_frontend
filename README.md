@@ -13,6 +13,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How does this work?
 
+Clone the repository.
+
+```bash
+git clone install 
+```
+
 Use the package manager npm or yarn to install.
 
 ```bash
