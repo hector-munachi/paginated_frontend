@@ -1,14 +1,14 @@
 
-# Foobar
+# paginated_frontend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0accb3ee69e14e8abf0211100470f944)](https://www.codacy.com/gh/hector-munachi/paginated_frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hector-munachi/paginated_frontend&amp;utm_campaign=Badge_Grade)
 
-Foobar is a Python library for dealing with word pluralization.
+TalentQL Pipline Assessment to build and deploy a very simple frontend app for paginated data from an API.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager npm or yarn to install.
 
 ```bash
-pip install foobar
+npm install | yarn install
 ```
 
 ## Usage
