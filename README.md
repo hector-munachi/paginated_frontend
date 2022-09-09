@@ -8,7 +8,10 @@ TalentQL Pipline Assessment to build and deploy a very simple frontend app for p
 Use the package manager npm or yarn to install.
 
 ```bash
-npm install | yarn install
+npm install 
+```
+```bash
+yarn install
 ```
 
 ## Usage
