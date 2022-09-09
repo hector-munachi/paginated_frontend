@@ -16,7 +16,7 @@ npm install
 yarn install
 ```
 
-## Development
+## How does this work?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
 
