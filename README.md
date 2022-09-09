@@ -12,15 +12,17 @@ Use the package manager npm or yarn to install.
 ```bash
 npm install 
 ```
+Or
 ```bash
 yarn install
 ```
 
-Run
+Then run
 
 ```bash
 npm start 
 ```
+Or
 ```bash
 yarn start
 ```
