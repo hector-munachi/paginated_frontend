@@ -5,7 +5,13 @@
 
 TalentQL Pipline Assessment to build and deploy a very simple frontend app for paginated data from an API.
 
-## Installation
+## Implementation
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Typescript, and deployed to Netlify.
+
+[See it live here!](https://hector-talentql-pipline.netlify.app/)
+
+## How does this work?
 
 Use the package manager npm or yarn to install.
 
@@ -26,13 +32,6 @@ Or
 ```bash
 yarn start
 ```
-
-## How does this work?
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
-
-[See it live here!](https://hector-talentql-pipline.netlify.app/)
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
