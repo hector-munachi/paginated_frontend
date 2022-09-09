@@ -3,6 +3,6 @@
   "track": "frontend",
   "email": "victornothector@gmail.com",
   "githubUsername": "hector-munachi",
-  "deployedAppURL": "",
+  "deployedAppURL": "hector-talentql-pipline.netlify.app",
   "explainer": "Switched to using react for the assessment: CRA setup is a more complex setup but simpler to implement the logic with. While the vanilla js template provided had a simple setup but on many tries the logic seemed more complex to implement and functionality did not work quite as required"
 }
