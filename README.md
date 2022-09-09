@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Clone the repository.
 
 ```bash
-git clone install 
+git clone https://github.com/hector-munachi/paginated_frontend.git 
 ```
 
 Use the package manager npm or yarn to install.
