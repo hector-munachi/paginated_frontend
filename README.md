@@ -17,7 +17,7 @@ Or
 yarn install
 ```
 
-Then run
+Then run.
 
 ```bash
 npm start 
