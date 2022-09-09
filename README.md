@@ -18,7 +18,7 @@ yarn install
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
 
-[See it live here!](hector-talentql-pipline.netlify.app)
+[See it live here!](https://hector-talentql-pipline.netlify.app/)
 
 
 ## License
