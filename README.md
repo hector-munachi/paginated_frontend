@@ -16,8 +16,7 @@ yarn install
 
 ## Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
-Here is a vanilla javascript [template](https://github.com/hector-munachi/paginated_data_vanilla) for the said assessment.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 [See it live here!](hector-talentql-pipline.netlify.app)
 
 
