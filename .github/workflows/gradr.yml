@@ -13,7 +13,7 @@ on:
 jobs:    
   autograde:
     name: Test & Auto-grade Code Challenge
-    # if: ${{ !github.event.repository.is_template }}
+    if: ${{ !github.event.repository.is_template }}
     runs-on: ubuntu-latest
     
     strategy:
