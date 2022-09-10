@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./Layout.css"
 
 const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, processData, loading}) => {
+  const [pageCount, setPageCount] = useState(viewIndex.current)
 
   const nextPage = () => {
     if(viewIndex.current === 1){
@@ -9,7 +11,7 @@ const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, proces
     }else{
       requestNewPage(nextLink)
     }
-    
+    setPageCount((prev)=>pageCount + 1)
   }
   const prevPage = () => {
     
@@ -19,6 +21,8 @@ const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, proces
     }else{
       requestNewPage(previousLink)
     }
+    ((previousLink !== undefined) || (viewIndex.current === 2) ) && setPageCount(1)
+    setPageCount((prev)=>pageCount - 1)
   }
 
   // console.log(data)
@@ -59,7 +63,8 @@ const Layout = ({data, previousLink, nextLink, requestNewPage, viewIndex, proces
           ((nextLink !== undefined) && <button data-nextbtn onClick={nextPage}>Next</button>)
         }
         
-        <label data-pageview></label>
+        <span style={{marginLeft: "1em"}}>Showing Page</span>
+        <label data-pageview>{pageCount}</label>
     </div>
     </div>
     </div>
