@@ -9,6 +9,8 @@ TalentQL Pipline Assessment to build and deploy a very simple frontend app for p
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Typescript, and deployed to Netlify.
 
+Automated Tests are handled by GitHub Actions.
+
 [See it live here!](https://hector-talentql-pipline.netlify.app/)
 
 ## How does this work?
