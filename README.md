@@ -3,7 +3,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0accb3ee69e14e8abf0211100470f944)](https://www.codacy.com/gh/hector-munachi/paginated_frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hector-munachi/paginated_frontend&amp;utm_campaign=Badge_Grade)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6453185-3493-470a-9ad4-109de474881c/deploy-status)](https://app.netlify.com/sites/hector-talentql-pipline/deploys)
 
-TalentQL Pipline Assessment to build and deploy a very simple frontend app for paginated data from an API.
+TalentQL Pipeline Assessment to build and deploy a very simple frontend app for paginated data from an API.
 
 ## Implementation
 
